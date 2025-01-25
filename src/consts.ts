@@ -16,7 +16,7 @@ export const GLOBAL: GlobalSite = {
   title: "alp1n3",
   description: "a minimalistic blog+portfolio Astro theme",
   author: "alp1n3",
-  authorPhotoSrc: "/johndoe.png",
+  authorPhotoSrc: "/johndoe.jpeg",
   logo: {
     darkThemeSrc: "/logo/logo_dark.png",
     lightThemeSrc: "/logo/logo_light.png",
