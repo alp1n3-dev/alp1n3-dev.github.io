@@ -13,13 +13,13 @@ export type GlobalSite = {
 };
 
 export const GLOBAL: GlobalSite = {
-  title: "Astro Milidev",
+  title: "alp1n3",
   description: "a minimalistic blog+portfolio Astro theme",
-  author: "John Doe",
-  authorPhotoSrc: "/johndoe.png",
+  author: "alp1n3",
+  authorPhotoSrc: "/public/johndoe.png",
   logo: {
-    darkThemeSrc: "/logo/logo_dark.png",
-    lightThemeSrc: "/logo/logo_light.png",
+    darkThemeSrc: "/public/logo/logo_dark.png",
+    lightThemeSrc: "/public/logo/logo_light.png",
   }
 };
 
