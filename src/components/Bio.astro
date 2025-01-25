@@ -11,12 +11,18 @@ const { small } = Astro.props;
 
 <div style={small ? "font-size: 0.875rem" : ""}>
   <p>
-  This is a collection of work & experiments in the cybersecurity field. It <b>might</b> me out of date...
+  This is a collection of work & experiments in the cybersecurity field.
   </p>
 
   <p>
-    I graduated from <b class="text-blue-500">Dakota State University</b> with a MS in <b>Cyber Defense</b> and a BS in <b>Cyber Operations</b>. Since then I've worked as a <b>Malware Analyst</b> with <b class="text-green-600">Army Cyber Command</b>, and am now a <b>Web Application Security Consultant</b>.
+    I graduated from <b class="text-blue-500"><TextLink href="https://dsu.edu">Dakota State University</TextLink></b> with a MS in <b>Cyber Defense</b> and a BS in <b>Cyber Operations</b>.
 
+    Since then I've worked as a <b>Malware Analyst</b> with <b class="text-blue-500">Army Cyber Command</b>, and am now a <b>Web Application Security Consultant</b>.
+
+    <p>
+    I'm a big fan of open security standards for applications and workflow automation when it comes to security testing. The easier it is to identify and replicate, the more secure everyone's apps can be 😁! My writings and other projects are scattered across the web, but if you feel like it you can find some of them listed in the <b>links</b> page.
+    </p>
+    <!--
   It originates from <TextLink href="https://github.com/trevortylerlee"
       >Trevor Lee</TextLink
     >'s <TextLink href="https://astro-micro.vercel.app/">Astro Micro</TextLink> theme,
@@ -26,13 +32,9 @@ const { small } = Astro.props;
       >Astro Nano</TextLink
     > (after "nano" and "micro" comes "mili", hence the first part of the name).
   </p>
+  -->
 
-  <p>
-    Astro Milidev enhances the above codebases with a variety of features. I
-    customized the original theme for my personal website, and also refactored
-    core parts of the code, making it more customizable and extensible.
-  </p>
-
+  <!--
   <p>
     The changelog is available in this post: <TextLink
       href={resolvePath(
@@ -49,4 +51,5 @@ const { small } = Astro.props;
   </p>
 
   <p>Enjoy!</p>
+  -->
 </div>
