@@ -16,10 +16,10 @@ export const GLOBAL: GlobalSite = {
   title: "alp1n3",
   description: "a minimalistic blog+portfolio Astro theme",
   author: "alp1n3",
-  authorPhotoSrc: "/public/johndoe.png",
+  authorPhotoSrc: "/johndoe.png",
   logo: {
-    darkThemeSrc: "/public/logo/logo_dark.png",
-    lightThemeSrc: "/public/logo/logo_light.png",
+    darkThemeSrc: "/logo/logo_dark.png",
+    lightThemeSrc: "/logo/logo_light.png",
   }
 };
 
