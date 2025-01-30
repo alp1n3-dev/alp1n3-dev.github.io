@@ -10,14 +10,15 @@ import { GLOBAL } from "@consts";
     <div class="flex flex-wrap justify-between gap-y-2">
       <TextLink href={resolvePath("/")} underline={false}>
         {
-          (GLOBAL.logo && (
-            <img
-              id="logo"
-              src={resolvePath(GLOBAL.logo.darkThemeSrc, Astro.url.pathname)}
-              alt={GLOBAL.title}
-              style="max-width: 240px; max-height:50px"
-            />
-          )) || <div class="font-semibold">{GLOBAL.title}</div>
+          //(GLOBAL.logo && (
+            //<img
+              //id="logo"
+              //src={resolvePath(GLOBAL.logo.darkThemeSrc, Astro.url.pathname)}
+              //alt={GLOBAL.title}
+              //style="max-width: 240px; max-height:50px"
+            ///>
+          //)) ||
+          <div class="font-semibold">{GLOBAL.title}</div>
         }
       </TextLink>
       <nav class="flex items-center gap-1 text-sm">
