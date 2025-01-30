@@ -10,24 +10,26 @@ import { GLOBAL } from "@consts";
     <div class="flex flex-wrap justify-between gap-y-2">
       <TextLink href={resolvePath("/")} underline={false}>
         {
-          //(GLOBAL.logo && (
+          (
+            //(GLOBAL.logo && (
             //<img
-              //id="logo"
-              //src={resolvePath(GLOBAL.logo.darkThemeSrc, Astro.url.pathname)}
-              //alt={GLOBAL.title}
-              //style="max-width: 240px; max-height:50px"
+            //id="logo"
+            //src={resolvePath(GLOBAL.logo.darkThemeSrc, Astro.url.pathname)}
+            //alt={GLOBAL.title}
+            //style="max-width: 240px; max-height:50px"
             ///>
-          //)) ||
-          <div class="font-semibold">{GLOBAL.title}</div>
+            //)) ||
+            <div class="font-semibold">{GLOBAL.title}</div>
+          )
         }
       </TextLink>
       <nav class="flex items-center gap-1 text-sm">
-        <TextLink href={resolvePath("/hire-me", Astro.url.pathname)}
+        <!--<TextLink href={resolvePath("/resume", Astro.url.pathname)}
           >hire me</TextLink
         >
         <span>
           {`|`}
-        </span>
+        </span>-->
         <TextLink href={resolvePath("/blog", Astro.url.pathname)}>blog</TextLink
         >
         <span>
@@ -43,7 +45,7 @@ import { GLOBAL } from "@consts";
           >projects</TextLink
         >
         <span>
-          {`|`}
+          {`| `}
         </span>
 
         <button
