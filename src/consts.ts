@@ -1,6 +1,5 @@
 export type CollectionName = "blog" | "projects" | "talks";
 
-
 export type GlobalSite = {
   title: string;
   description: string;
@@ -20,19 +19,18 @@ export const GLOBAL: GlobalSite = {
   logo: {
     darkThemeSrc: "/logo/logo_dark.png",
     lightThemeSrc: "/logo/logo_light.png",
-  }
+  },
 };
 
-
-type CollectionSite =  {
+type CollectionSite = {
   pageSize: number;
 };
 
-type HomeSite =  {
+type HomeSite = {
   blogEntries?: number;
   projectEntries?: number;
   talkEntries?: number;
-}
+};
 
 export const HOME: HomeSite = {
   blogEntries: 5,
@@ -44,7 +42,7 @@ type BlogSite = CollectionSite & {
   license: {
     name: string;
     href: string;
-  }
+  };
 };
 
 export const BLOG: BlogSite = {
@@ -69,29 +67,30 @@ export const TAGS: CollectionSite = {
 
 type ContactInfo = {
   type: string;
-  href: string;
+  href?: string; // Altered to make it optional instead of required.
   displayAs?: string;
-}
+};
 
-type ContactSite = ContactInfo[]
+type ContactSite = ContactInfo[];
 
 export const CONTACT: ContactSite = [
   {
-    type: "Email",
-    href: "mailto:email@example.com",
-    displayAs: "email@example.com",
+    type: "Signal", // Previously "Email"
+    //href: "mailto:email@example.com",
+    displayAs: "Signal: alp1n3.01",
   },
   {
-    type: "X",
-    href: "https://x.com/BillGates",
-    displayAs: "@BillGates on X",
+    type: "BlueSky", // Previously "X"
+    //href: "https://x.com/BillGates",
+    href: "https://bsky.app/profile/alp1n3.dev",
+    displayAs: "@alp1n3.dev on BlueSky",
   },
   {
     type: "GitHub",
-    href: "https://github.com/dotnet",
+    href: "https://github.com/alp1n3-eth",
   },
-  {
-    type: "LinkedIn",
-    href: "https://www.linkedin.com/in/williamhgates/",
-  },
+  //{ // Leaving out LinkedIn for now.
+  //type: "LinkedIn",
+  //href: "https://www.linkedin.com/in/williamhgates/",
+  //},
 ];
