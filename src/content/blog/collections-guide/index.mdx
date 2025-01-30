@@ -4,6 +4,7 @@ description: "Steo-by-step guide on adding a blog post or other entry"
 date: "2025-01-03"
 tags:
   - guide
+draft: true
 ---
 
 import Callout from "@components/Callout.astro";
@@ -12,13 +13,13 @@ import Callout from "@components/Callout.astro";
 
 ## Collection names
 
-Originally, there are three collections: 
+Originally, there are three collections:
 
 - `blog`
 - `projects`
 - `talks`
 
-They work pretty much the same. If the collection is empty, the UI doesn't show it. 
+They work pretty much the same. If the collection is empty, the UI doesn't show it.
 
 For adding new collections, see the source code and follow the same pattern.
 
@@ -65,7 +66,7 @@ tags:
 - `description` - (optional) will be used as a subtitle, placed in metadata and in RSS. If missing, the global page description will be used in the metadata.
 - `date` - publish date in format: `YYYY-MM-DD`
 - `lastUpdateDate` - (optional) date of the last update in format: `YYYY-MM-DD`
-- `ogImage` - (optional) path (relative to the public folder) to the open graph image for this entry 
+- `ogImage` - (optional) path (relative to the public folder) to the open graph image for this entry
 - `draft` - (optional) if `true`, the entry won't be included into final build
 - `tags` - (optional) list of tags.
 

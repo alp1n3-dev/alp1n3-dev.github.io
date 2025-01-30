@@ -6,6 +6,7 @@ ogImage: "/blog/everything-new-in-astro-milidev/article-og-image.png"
 description: "Astro Milidev changelog"
 tags:
     - parent-project
+draft: true
 ---
 
 import Callout from "@/components/Callout.astro";
@@ -18,14 +19,14 @@ Astro Milidev supports the base path, so you can host your site in the nested "s
 
 This is useful when you want to host your site on e.g., GitHub Pages under `https://username.github.io/repo-name/`. In this case, you should set the `base` property to `/repo-name/`.
 
-The `<base>` tag is not used due to the errors it causes in different places. 
-Most of the time the components use `resolvePath` function from `src/utils.ts` to generate correct paths. 
+The `<base>` tag is not used due to the errors it causes in different places.
+Most of the time the components use `resolvePath` function from `src/utils.ts` to generate correct paths.
 
 Navigate to the [Content and syntax guide](../content-and-syntax-guide) post to read how to handle [images](../content-and-syntax-guide#public-images) and [links](../content-and-syntax-guide#relative-links).
 
 ## Pagination
 
-All collections support pagination by default. On the collection page, you can navigate between pages using the pagination component at the bottom. 
+All collections support pagination by default. On the collection page, you can navigate between pages using the pagination component at the bottom.
 The number of items per page is configurable in the `src/consts.ts` file (individually for each collection).
 
 The URL address contains collection name followed with a page number. For example, the 3rd page of the `blog` collection is under `https://example.com/blog/3`.
@@ -159,4 +160,3 @@ When developing you can continue to use `npm run dev` and Pagefind will use the 
 - Reversed animation
 - Ensure posts use an h1 tag for post titles
 - Tweaked typography
-
