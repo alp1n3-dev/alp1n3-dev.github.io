@@ -6,21 +6,20 @@ import type { CollectionEntry } from "astro:content";
 import BlogCardButton from "@components/BlogCardButton.astro";
 import ProjectCardButton from "@components/ProjectCardButton.astro";
 import TalkCardButton from "@components/TalkCardButton.astro";
+import LinksCardButton from "@components/LinksCardButton.astro";
 import { TAGS, type CollectionName } from "@consts";
 import BackToPrevious from "@components/BackToPrevious.astro";
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
-    const { entries, tags } = await getAllEntriesWithTags();
+  const { entries, tags } = await getAllEntriesWithTags();
 
-    return tags.flatMap((tag) => {
-        const tagEntries = entries.filter((post) =>
-            post.data.tags?.includes(tag),
-        );
-        return paginate(tagEntries, {
-            params: { slug: tag },
-            pageSize: TAGS.pageSize,
-        });
+  return tags.flatMap((tag) => {
+    const tagEntries = entries.filter((post) => post.data.tags?.includes(tag));
+    return paginate(tagEntries, {
+      params: { slug: tag },
+      pageSize: TAGS.pageSize,
     });
+  });
 }
 
 const { slug } = Astro.params;
@@ -29,74 +28,66 @@ const { page } = Astro.props;
 const entries = page.data;
 
 const groupedEntries: {
-    collection: string;
-    entries: CollectionEntry<CollectionName>[];
+  collection: string;
+  entries: CollectionEntry<CollectionName>[];
 }[] = [];
 
 let currentCollection: CollectionName | undefined;
 
 for (const entry of entries) {
-    const collection = entry.collection;
+  const collection = entry.collection;
 
-    if (collection !== currentCollection) {
-        currentCollection = collection;
-        groupedEntries.push({
-            collection,
-            entries: [],
-        });
-    }
+  if (collection !== currentCollection) {
+    currentCollection = collection;
+    groupedEntries.push({
+      collection,
+      entries: [],
+    });
+  }
 
-    groupedEntries[groupedEntries.length - 1].entries.push(entry);
+  groupedEntries[groupedEntries.length - 1].entries.push(entry);
 }
 ---
 
 <RootPageIndex title={`# ${slug}`}>
-    <div class="animate">
-        <BackToPrevious href={resolvePath("/tags", Astro.url.pathname)}
-            >All tags</BackToPrevious
-        >
-    </div>
-    {
-        (
-            <ul class="animate not-prose mb-12 flex flex-col gap-4">
-                {groupedEntries.map((group) => (
-                    <li>
-                        <div class="mb-4 text-sm text-gray-500">
-                            {group.collection}:
-                        </div>
-                        <ul class="flex flex-col gap-4">
-                            {group.entries.map((entry) => (
-                                <li>
-                                    {group.collection === "blog" ? (
-                                        <BlogCardButton
-                                            entry={
-                                                entry as CollectionEntry<"blog">
-                                            }
-                                        />
-                                    ) : undefined}
+  <div class="animate">
+    <BackToPrevious href={resolvePath("/tags", Astro.url.pathname)}
+      >All tags</BackToPrevious
+    >
+  </div>
+  {
+    (
+      <ul class="animate not-prose mb-12 flex flex-col gap-4">
+        {groupedEntries.map((group) => (
+          <li>
+            <div class="mb-4 text-sm text-gray-500">{group.collection}:</div>
+            <ul class="flex flex-col gap-4">
+              {group.entries.map((entry) => (
+                <li>
+                  {group.collection === "blog" ? (
+                    <BlogCardButton entry={entry as CollectionEntry<"blog">} />
+                  ) : undefined}
 
-                                    {group.collection === "projects" ? (
-                                        <ProjectCardButton
-                                            entry={
-                                                entry as CollectionEntry<"projects">
-                                            }
-                                        />
-                                    ) : undefined}
+                  {group.collection === "projects" ? (
+                    <ProjectCardButton
+                      entry={entry as CollectionEntry<"projects">}
+                    />
+                  ) : undefined}
 
-                                    {group.collection === "talks" ? (
-                                        <TalkCardButton
-                                            entry={
-                                                entry as CollectionEntry<"talks">
-                                            }
-                                        />
-                                    ) : undefined}
-                                </li>
-                            ))}
-                        </ul>
-                    </li>
-                ))}
+                  {group.collection === "talks" ? (
+                    <TalkCardButton entry={entry as CollectionEntry<"talks">} />
+                  ) : undefined}
+
+                  {group.collection === "links" ? (
+                    <TalkCardButton entry={entry as CollectionEntry<"links">} />
+                  ) : undefined}
+                </li>
+              ))}
             </ul>
-        )
-    }
-    <PageNavigation page={page} />
+          </li>
+        ))}
+      </ul>
+    )
+  }
+  <PageNavigation page={page} />
 </RootPageIndex>

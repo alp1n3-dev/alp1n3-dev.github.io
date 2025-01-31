@@ -1,0 +1,41 @@
+---
+import { getFilteredCollectionEntries } from "@lib/utils";
+import RootPageIndex from "@components/RootPageIndex.astro";
+import { LINKS } from "@consts";
+import PageNavigation from "@components/PageNavigation.astro";
+import LinksCardButton from "@components/LinksCardButton.astro";
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const { entries } = await getFilteredCollectionEntries("links");
+  const posts = entries.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+
+  return paginate(posts, { pageSize: LINKS.pageSize });
+}
+
+const { page } = Astro.props as {
+  page: { data: { props: any }[]; currentPage: number; lastPage: number };
+};
+
+const entries = page.data.map((pageEntry) => ({
+  ...pageEntry.props,
+}));
+---
+
+<RootPageIndex title="Links">
+  {
+    (
+      <ul class="animate not-prose mb-12 flex flex-col gap-4">
+        {entries.map((entry) => (
+          <li>
+            <LinksCardButton entry={entry} />
+          </li>
+        ))}
+      </ul>
+    )
+  }
+
+  <PageNavigation page={page} />
+</RootPageIndex>

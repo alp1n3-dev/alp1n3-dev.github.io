@@ -29,15 +29,13 @@ export function sortByLastUpdateDate<T extends CollectionName>(
 }
 
 export async function getFilteredCollectionEntries<T extends CollectionName>(
-  collectionName: T
+  collectionName: T,
 ): Promise<{
   entries: CollectionEntry<T>[];
 }> {
   const data = (await getCollection(collectionName))
     .filter((post: CollectionEntry<T>) => !post.data.draft)
-    .sort(
-      sortByLastUpdateDate
-    );
+    .sort(sortByLastUpdateDate);
 
   return { entries: data };
 }
@@ -61,7 +59,10 @@ export async function getNavigationEntries<T extends CollectionName>(
   };
 }
 
-export function resolvePath(href: string | undefined | null, currentPath?: string | undefined) {
+export function resolvePath(
+  href: string | undefined | null,
+  currentPath?: string | undefined,
+) {
   if (!href) {
     return "";
   }
@@ -85,11 +86,16 @@ export function resolvePath(href: string | undefined | null, currentPath?: strin
   return resolvedPath;
 }
 
-export function formatDateWithLastUpdateDate(date: Date, lastUpdateDate?: Date): string {
+export function formatDateWithLastUpdateDate(
+  date: Date,
+  lastUpdateDate?: Date,
+): string {
   const formattedDate = date.toISOString().substring(0, 10);
 
   if (lastUpdateDate) {
-    const formattedLastUpdateDate = lastUpdateDate.toISOString().substring(0, 10);
+    const formattedLastUpdateDate = lastUpdateDate
+      .toISOString()
+      .substring(0, 10);
     return `${formattedDate} (updated: ${formattedLastUpdateDate})`;
   }
   return formattedDate;
@@ -100,11 +106,12 @@ export async function getAllEntriesWithTags() {
     ...(await getFilteredCollectionEntries("blog")).entries,
     ...(await getFilteredCollectionEntries("talks")).entries,
     ...(await getFilteredCollectionEntries("projects")).entries,
+    ...(await getFilteredCollectionEntries("links")).entries,
   ].sort(sortByLastUpdateDate);
 
   const tags = [
     ...new Set(entries.flatMap((entry) => entry.data.tags || [])),
   ].sort();
 
-  return { tags, entries }
+  return { tags, entries };
 }

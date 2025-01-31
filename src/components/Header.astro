@@ -47,7 +47,12 @@ import { GLOBAL } from "@consts";
         <span>
           {`|`}
         </span>
-
+        <TextLink href={resolvePath("/links", Astro.url.pathname)}
+          >links</TextLink
+        >
+        <span>
+          {`|`}
+        </span>
         <button
           id="magnifying-glass"
           aria-label="Search"

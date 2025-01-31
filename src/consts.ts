@@ -1,4 +1,4 @@
-export type CollectionName = "blog" | "projects" | "talks";
+export type CollectionName = "blog" | "projects" | "talks" | "links";
 
 export type GlobalSite = {
   title: string;
@@ -30,12 +30,14 @@ type HomeSite = {
   blogEntries?: number;
   projectEntries?: number;
   talkEntries?: number;
+  linksEntries?: number;
 };
 
 export const HOME: HomeSite = {
   blogEntries: 5,
   projectEntries: 3,
   talkEntries: 3,
+  linksEntries: 1,
 };
 
 type BlogSite = CollectionSite & {
@@ -63,6 +65,10 @@ export const TALKS: CollectionSite = {
 
 export const TAGS: CollectionSite = {
   pageSize: 10,
+};
+
+export const LINKS: CollectionSite = {
+  pageSize: 5,
 };
 
 type ContactInfo = {
