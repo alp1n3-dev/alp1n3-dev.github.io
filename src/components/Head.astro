@@ -97,6 +97,13 @@ const ogImageFullUrl = new URL(resolvePath(ogImage), Astro.site);
   )
 }
 
+<!-- Umami Cloud Site Analytics -->
+<script
+  defer
+  src="https://cloud.umami.is/script.js"
+  data-website-id="6169bff0-8c04-4811-b59d-1ea7a5c9b853"
+></script>
+
 <script is:inline>
   function init() {
     preloadTheme();
@@ -320,3 +327,4 @@ const ogImageFullUrl = new URL(resolvePath(ogImage), Astro.site);
   document.addEventListener("astro:after-swap", () => init());
   preloadTheme();
 </script>
+-->

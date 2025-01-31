@@ -79,7 +79,9 @@ for (const entry of entries) {
                   ) : undefined}
 
                   {group.collection === "links" ? (
-                    <TalkCardButton entry={entry as CollectionEntry<"links">} />
+                    <LinksCardButton
+                      entry={entry as CollectionEntry<"links">}
+                    />
                   ) : undefined}
                 </li>
               ))}
