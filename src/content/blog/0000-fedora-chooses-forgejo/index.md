@@ -1,5 +1,5 @@
 ---
-title: "fedora moves forward with forgejo as its new forge"
+title: "0000 - fedora moves forward with forgejo as its new forge"
 date: "2025-01-31"
 tags:
   - linux
@@ -12,7 +12,7 @@ In the Fedora [project discussion](https://discussion.fedoraproject.org/t/fedora
 
 I've personally never used a different forge than GitHub, setting it up and checking the UI and options out was a great experience as it is extremely intuitive to use and doesn't hog too much of the system's resources (_running in Docker on an M1 MacBook Air_). You can find the documentation link in its repo on [CodeBerg](https://codeberg.org/forgejo/forgejo), and the install instructions boil down to:
 
-```shell
+```bash
 docker pull codeberg.org/forgejo/forgejo:10
 ```
 
