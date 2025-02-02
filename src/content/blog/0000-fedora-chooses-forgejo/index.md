@@ -1,5 +1,5 @@
 ---
-title: "0000 - fedora moves forward with forgejo as its new forge"
+title: "fedora moves forward with forgejo as its new forge"
 date: "2025-01-31"
 tags:
   - linux
