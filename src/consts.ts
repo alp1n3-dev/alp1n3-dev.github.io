@@ -13,7 +13,7 @@ export type GlobalSite = {
 
 export const GLOBAL: GlobalSite = {
   title: "alp1n3",
-  description: "a collection of cybersecurity writing & projects.",
+  description: "a collection of cybersecurity-related notes & projects.",
   author: "alp1n3",
   authorPhotoSrc: "/johndoe.jpeg",
   logo: {
