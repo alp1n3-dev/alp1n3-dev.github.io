@@ -1,9 +1,9 @@
 ---
-title: "setting up cloudflare (free tier) with a github pages blog"
+title: "ripgrep & fzf cheat sheet"
 date: "2025-03-10"
 tags:
-  - llm
-  - prompt design
+  - waf
+  - github
 draft: true
 ---
 

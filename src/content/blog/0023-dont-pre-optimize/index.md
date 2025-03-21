@@ -1,5 +1,5 @@
 ---
-title: "dont't pre-optimize with go"
+title: "don't pre-optimize with go"
 date: "2025-03-19"
 tags:
   - cast
