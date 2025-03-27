@@ -15,4 +15,4 @@ Reading through the amazing resource known as the [CLI Guidelines](https://clig.
 
 ---
 
-It's definitely made me reflect more about building `cast` to be more human-centric, usable, and provide helpful (but limited) information to the user. Fuzz testing it in-depth to ensure no edge-case complicated errors slip out is 100% a priority in order to make sure the user's have no confusion surrounding any errors that crop up.
+It's definitely made me reflect more about building `cast` to be more human-centric, usable, and provide helpful (but limited) information to the user. Fuzz testing it in-depth to ensure no edge-case errors slip out is 100% a priority in order to make sure that users have no confusion surrounding any errors that crop up.

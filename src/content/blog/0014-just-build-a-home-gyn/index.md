@@ -33,24 +33,26 @@ Here's the basic home gym starter list to fully replace both HIIT classes and sp
 
 ### cost saving plan
 
-1 x Feedback Sports Omnium Track Trainer (require existing bike, which I have) - `$440.00`
-1 x Rouvy Subscription (or Zwift, Playbook, etc.) - `$156.00 / year`
-2 x BowFlex SelectTech 840 Adjustable Kettlebell - Total: `$270.00`
-& Run Outside (if you want to run, idc if I'm getting a lot of cycling in)
+- 1 x Feedback Sports Omnium Track Trainer (require existing bike, which I have) - `$440.00`
+- 1 x Rouvy Subscription (or Zwift, Playbook, etc.) - `$156.00 / year`
+- 2 x BowFlex SelectTech 840 Adjustable Kettlebell - Total: `$270.00`
+- & Run Outside (if you want to run, idc if I'm getting a lot of cycling in)
 
 **Total One-Time Equipment Cost:** `$710.00`
+
 **Total One-Year Subscription Cost:** `$156.00`
 
 **Savings after 5 years:** `$5,510.00`
 
 ### buy it all plan
 
-1 x Echelon EX-5 - `$800.00`
-1 x Zwift Subscription (or Rouvy, Playbook, etc.) - `$200.00 / year`
-1 x IronMaster 45 LB Set (can be extended to 75 LB w/ another purchase) - `$519.00`
-& Run Outside (again, optional)
+- 1 x Echelon EX-5 - `$800.00`
+- 1 x Zwift Subscription (or Rouvy, Playbook, etc.) - `$200.00 / year`
+- 1 x IronMaster 45 LB Set (can be extended to 75 LB w/ another purchase) - `$519.00`
+- & Run Outside (again, optional)
 
 **Total One-Time Equipment Cost:** `$1,319.00`
+
 **Total One-Year Subscription Cost:** `$200.00`
 
 **Savings after 5 years:** `$2,319.00`
