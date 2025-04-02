@@ -1,10 +1,10 @@
 ---
-title: "Skill Roadmap"
-date: "2025-01-31"
+title: "uses"
+date: "2025-04-02"
 tags:
-  - roadmap
-  - skills
-  - education
+  - uses
+  - hardware
+  - software
 ---
 
 ## Uses

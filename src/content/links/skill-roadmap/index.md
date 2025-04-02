@@ -1,5 +1,5 @@
 ---
-title: "Skill Roadmap"
+title: "skill roadmap"
 date: "2025-01-31"
 tags:
   - roadmap

@@ -1,5 +1,5 @@
 ---
-title: "Recommended Reading"
+title: "recommended reading"
 date: "2025-01-31"
 tags:
   - rfcs
