@@ -1,5 +1,5 @@
 ---
-title: "0000 - old blogs, and some socials"
+title: "old blogs, and some socials"
 date: "2025-02-01"
 tags:
   - social media
