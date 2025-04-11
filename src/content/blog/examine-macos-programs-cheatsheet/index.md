@@ -7,7 +7,7 @@ tags:
   - macos
   - nushell
   - troubleshooting
-drafts: true
+draft: true
 ---
 
 _I'm currently trialing Nushell, so the `err>` bit might need to be corrected for other shells._
