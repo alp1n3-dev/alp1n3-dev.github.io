@@ -33,11 +33,19 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 2. Let's Go by Alex Edwards - ✅
 3. Learn Go with Tests by quii - 🔄
 4. [Grind 75](https://www.techinterviewhandbook.org/grind75/) - 🛑
-5. Ardan Labs Go Bundle - 🛑
+5. Let's Go Further by Alex Edwards - 🛑
+6. Ardan Labs Go Bundle - 🛑
 
 ### c#
 
+1. C# [Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview) (All of it) - 🛑
+2. ASP.NET Core [Documentation](https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-9.0) (All of it) - 🛑
+3. ISE Engineering Fundamentals [Playbook](https://microsoft.github.io/code-with-engineering-playbook/) - 🛑
+4. OWASP DotNet Cheat [Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html) - 🛑
+
 ### gleam
+
+1. Gleam Language [Tour](https://tour.gleam.run) - 🛑
 
 ## systems / devops / ci/cd / scr
 
@@ -51,11 +59,13 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 - [BugCrowd CodeQL Roundtable](https://www.youtube.com/watch?v=4lvUd3xYL4w)
 - [CNCF: Security as Code - A DevSecOps Approach](https://www.youtube.com/watch?v=aKv08sAUNUs)
 - [CodeQL CTFs to Practice With](https://securitylab.github.com/ctf/)
+- Use CodeQL in a repo of your own - ✅
 
 Need help or running into a problem? Use the GitHub Security Lab's [Discussions](https://github.com/github/securitylab/discussions). Sometimes updates to CodeQL contain breaking changes (like to the dataflow API) and the relevant documentation for specific languages isn't updated, so don't be afraid to ask.
 
 ### Semgrep
 
-1.
+1. [Semgrep 101](https://academy.semgrep.dev/courses/semgrep-101) via Semgrep Academy, then the other relevant courses - 🛑
+2. Use Semgrep in a repo of your own - ✅
 
 ## unnecessary, but still completed

@@ -16,9 +16,11 @@ draft: true
 - [Leanpub](https://leanpub.com)
 - Polar.sh
 - [Draft2Digital](https://www.draft2digital.com)
+- [Lulu](https://www.lulu.com) (also use their global distribution feature to get it listed in lots of places)
 
-### Book to Read About the Process
+### Items to Read About the Process
 
+- Blog [post](https://www.thecoder.cafe/p/100-go-mistakes) on writing "100 Go Mistakes"
 - "Let's Get Digital" by [David Gaughran](https://davidgaughran.com/books/lets-get-digital-how-to-self-publish/).
 
 ### Book Formatting
