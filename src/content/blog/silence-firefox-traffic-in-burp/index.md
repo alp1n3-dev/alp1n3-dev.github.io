@@ -2,8 +2,10 @@
 title: "silence firefox traffic in burp suite"
 date: "2025-04-22"
 tags:
-  - burp suite
+  - burp-suite
   - methodology
-  - project scope
-drafts: true
+  - project-scope
+draft: true
 ---
+
+## test
