@@ -1,0 +1,10 @@
+{
+  "baseFontSize": 16,
+  "translucency": false,
+  "showRibbon": false,
+  "nativeMenus": true,
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Geist Mono",
+  "textFontFamily": "Geist",
+  "interfaceFontFamily": "Geist"
+}

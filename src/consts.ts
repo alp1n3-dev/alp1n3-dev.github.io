@@ -86,10 +86,10 @@ export const CONTACT: ContactSite = [
     displayAs: "Signal: alp1n3.01",
   },
   {
-    type: "BlueSky", // Previously "X"
+    type: "Contact Form", // Previously "X"
     //href: "https://x.com/BillGates",
-    href: "https://bsky.app/profile/alp1n3.dev",
-    displayAs: "@alp1n3.dev on BlueSky",
+    href: "https://letterbird.co/alp1n3",
+    displayAs: "Email Me",
   },
   {
     type: "GitHub",

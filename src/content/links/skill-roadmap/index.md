@@ -22,8 +22,13 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 1. PortSwigger Academy - ✅
 2. HackTheBox Certified Bug Bounty Hunter (HTB CBBH) - ✅
 3. PentesterLab - Assorted Badges - 🔄
-4. HackTheBox Certified Web Exploitation Expert (HTB CWEE) - 🛑
-5. OffSec OSWE - 🛑
+4. SecureCodeWarrior:
+
+   - Go - 🔄
+   - C# - 🔄
+
+5. HackTheBox Certified Web Exploitation Expert (HTB CWEE) - 🛑
+6. OffSec OSWE - 🛑
 
 ## programming
 
@@ -32,9 +37,45 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 1. A Tour of [Go](https://go.dev/tour/welcome/1) - ✅
 2. Let's Go by Alex Edwards - ✅
 3. Learn Go with Tests by quii - 🔄
-4. [Grind 75](https://www.techinterviewhandbook.org/grind75/) - 🛑
-5. Let's Go Further by Alex Edwards - 🛑
-6. Ardan Labs Go Bundle - 🛑
+4. Building Microservices in Go (Pluralsight) - 🔄
+5. [Grind 75](https://www.techinterviewhandbook.org/grind75/) - 🛑
+6. Let's Go Further by Alex Edwards - 🛑
+7. Ardan Labs Go Bundle - 🛑
+8. 100 Mistakes in Go
+9. Go By Example (with accompanying github [repo](https://github.com/inancgumus/learngo))
+10. Ultimate Go Notebook
+11. How I Write HTTP Services in [Go](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/) After 13 Years
+12. Go Secure Coding [Practices](https://github.com/OWASP/Go-SCP)
+
+#### golang packages / tools to get familiar with
+
+1. net/http
+2. zap
+3. pgx ([overview](https://donchev.is/post/working-with-postgresql-in-go-using-pgx/), [yt video](https://www.youtube.com/watch?v=sXMSWhcHCf8))
+4. [testify](https://github.com/stretchr/testify)
+5. [temporal](https://github.com/temporalio/temporal)
+6. [validator](https://github.com/go-playground/validator)
+7. [chi](https://github.com/go-chi/chi)
+
+#### golang repos to study, to see how things are handled (actions, releases, etc.)
+
+- usememos/memo
+-
+
+### python
+
+- get started with [uv](https://docs.astral.sh/uv/)
+- building ai agents with python
+
+## systems / devops / ci/cd / scr
+
+- how git internally [works](https://octobot.medium.com/how-git-internally-works-1f0932067bee)
+
+### ai agents & MCP
+
+### n8n
+
+### orbstack & docker
 
 ### c#
 
@@ -42,12 +83,6 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 2. ASP.NET Core [Documentation](https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-9.0) (All of it) - 🛑
 3. ISE Engineering Fundamentals [Playbook](https://microsoft.github.io/code-with-engineering-playbook/) - 🛑
 4. OWASP DotNet Cheat [Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html) - 🛑
-
-### gleam
-
-1. Gleam Language [Tour](https://tour.gleam.run) - 🛑
-
-## systems / devops / ci/cd / scr
 
 ### CodeQL
 
