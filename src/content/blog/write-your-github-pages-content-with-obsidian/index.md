@@ -1,7 +1,7 @@
 ---
 title: write your github pages content with obsidian
 date: 2025-05-03
-draft: true
+draft: false
 tags:
   - blog
   - github-pages

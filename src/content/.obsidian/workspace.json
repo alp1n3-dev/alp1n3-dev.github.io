@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
+                "file": "blog/setting-up-tailscale/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
+                "file": "blog/setting-up-tailscale/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
+                "file": "blog/setting-up-tailscale/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
+                "file": "blog/setting-up-tailscale/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,10 +170,10 @@
   },
   "active": "ecb8a5dbfccc5367",
   "lastOpenFiles": [
+    "blog/write-your-github-pages-content-with-obsidian/index.md",
+    "blog/setting-up-tailscale/index.md",
     "blog/write-your-github-pages-content-with-obsidian/images/CleanShot 2025-05-03 at 16.43.45@2x.png",
     "blog/write-your-github-pages-content-with-obsidian/images",
-    "blog/setting-up-tailscale/index.md",
-    "blog/write-your-github-pages-content-with-obsidian/index.md",
     "blog/write-your-github-pages-content-with-obsidian",
     "links/top-tier-software/index.md",
     "blog/setting-up-tailscale",
