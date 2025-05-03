@@ -18,7 +18,7 @@ tags:
 This may be something like `/Users/< user >/Documents/GitHub/< user >.github.io/src/content/blog`.
 2. Open Obsidian and select `File > Open Vault` from the menu bar.
 3. Select the "Open Folder as Vault" button from the menu that appeared.
-![[CleanShot 2025-05-03 at 16.43.45@2x.png]]
+![image](images/obsidian-menu.png)
 4. Select the folder full of your markdown files. This will create a new Vault.
 5. Open a file up and start editing! Feel free to use whatever Git tooling you'd like:
 	- GitHub Desktop

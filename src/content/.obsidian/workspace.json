@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/setting-up-tailscale/index.md",
+                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/setting-up-tailscale/index.md",
+                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/setting-up-tailscale/index.md",
+                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/setting-up-tailscale/index.md",
+                "file": "blog/write-your-github-pages-content-with-obsidian/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,11 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ecb8a5dbfccc5367",
+  "active": "dd459e7caa6dde17",
   "lastOpenFiles": [
+    "blog/write-your-github-pages-content-with-obsidian/images/obsidian-menu.png",
+    "blog/postgres-with-orbstack/index.md",
+    "blog/places-to-publish-your-book/index.md",
+    "blog/0026-scr-quick-tips/index.md",
+    "blog/0022-cloudflare-with-github-pages/index.md",
+    "blog/hunting-for-cves/index.md",
     "blog/write-your-github-pages-content-with-obsidian/index.md",
     "blog/setting-up-tailscale/index.md",
-    "blog/write-your-github-pages-content-with-obsidian/images/CleanShot 2025-05-03 at 16.43.45@2x.png",
+    "blog/write-your-github-pages-content-with-obsidian/images/obsidian-menu.png.png",
     "blog/write-your-github-pages-content-with-obsidian/images",
     "blog/write-your-github-pages-content-with-obsidian",
     "links/top-tier-software/index.md",
@@ -180,11 +186,9 @@
     "links/skill-roadmap/index.md",
     "links/top-tier-software",
     "links/cool-companies/index.md",
-    "blog/hunting-for-cves/index.md",
     "links/recommended-reading/index.md",
     "links/library-of-payloads-wordlists/index.md",
     "blog/detecting-headless-browsers/index.md",
-    "blog/places-to-publish-your-book/index.md",
     "links/library-of-payloads-wordlists",
     "links/cool-companies"
   ]
