@@ -20,8 +20,9 @@ draft: true
 
 ### Items to Read About the Process
 
-- Blog [post](https://www.thecoder.cafe/p/100-go-mistakes) on writing "100 Go Mistakes"
-- "Let's Get Digital" by [David Gaughran](https://davidgaughran.com/books/lets-get-digital-how-to-self-publish/).
+- The Story Behind [100 Go Mistakes](https://www.thecoder.cafe/p/100-go-mistakes) and How to Avoid Them
+- Let's Get Digital by [David Gaughran](https://davidgaughran.com/books/lets-get-digital-how-to-self-publish/)
+- My [$6k Advance](https://mtlynch.io/my-6k-advance/) as a Self-Published Technical Author
 
 ### Book Formatting
 
@@ -74,3 +75,9 @@ _If you want to submit an article, make sure it hasn't been published on your bl
 - Hemingway
 - ProWritingAid
 - LanguageTool
+
+---
+
+## slow-roll your posts
+
+Start pushing chapters and seeing if people are interested by just doing the normal thing; blogging. Establish a routine and push your blog posts out, self distribute them through various sites and feeds (POSSE), and if they are an article with merit (not just a small link blog post), submit them to news sites / more official publications. If several posts within a certain niche are pulling in a good amount of interest, maybe try to pitch a book about that niche or begin organizing chapters and self-publishing them a little bit at a time! **It's a marathon, not a sprint.** 

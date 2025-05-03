@@ -27,3 +27,4 @@ drafts: true
 
 - [OWASP's WSTG]()
 - [HackerOne's Hacktvitiy]() & [BugBountyHunter's Disclosed]()
+- [WriteUps.xyz](https://writeups.xyz)

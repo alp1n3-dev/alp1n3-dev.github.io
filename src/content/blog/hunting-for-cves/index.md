@@ -1,6 +1,6 @@
 ---
 title: "hunting for cves: just getting started"
-date: "2025-04-23"
+date: 2025-04-23
 tags:
   - cve
   - methodology
@@ -100,9 +100,22 @@ This might be:
 
 Once the fix has been published and a CVE is assigned, feel free to post about it online to your blog, LinkedIn, or GitHub. Ensure the project knows you'll be doing this, as they may want to ensure there has been time for the fix to be published and implemented.
 
-## case study - recent mattermost cves
+## case studies
 
-## dupes will happen & rome wasn't built in a day
+### mattermost auth cves
+
+### next.js middleware cve
+
+### react-router poisoning cve
+- CVE-2025-43865 (High-8.2) 
+- CVE-2025-43864 (High-7.5)
+Huge shoutout to @zhero___ & @inzo____ for all the work and knowledge they put out every day 👏.
+
+### exploring the dompurify library
+- [Part 1](https://mizu.re/post/exploring-the-dompurify-library-bypasses-and-fixes)
+- [Part 2](https://mizu.re/post/exploring-the-dompurify-library-hunting-for-misconfigurations)
+
+## dupes will happen, and rome wasn't built in a day
 
 While writing this post and searching for my first CVE in `memo`, I _technically_ found one. It involved reading comments that are set to `private` as a user who didn't own the comment, and I thought I'd struck gold (despite it being low/medium severity). But alas, I went to the issues section to double-check and someone had filed it as a [bug](https://github.com/usememos/memos/issues/4622) two weeks beforehand (kudos to them!). Dupes happen, just keep going and forget about them. If it's been patched, ensure that the patch holds up and that a bypass isn't available.
 
@@ -126,6 +139,14 @@ currentUser, err := s.GetCurrentUser(ctx)
  		MemoFilter:    &memoFilter,
 ```
 
+## avoiding issues in the future with context-aware SAST rules
+
+Ghost Scan put out a shocking report that highlighted exactly how much review time a lot of the general SAST rules waste. There's a billion different ways to accidentally introduce a vulnerability -- we're all human -- but there is also a billion different ways to proactively architect the security of the application and it's infrastructure before it's finished. "Shifting left" is a term that gets thrown around a lot, and it's extremely helpful to have security involved as early as possible in the development process.
+
 ## further reading & resources:
 
 -
+
+## special thanks
+
+Huge shoutout to @zhero___ & @inzo____ for all the work and knowledge they put out every day 👏.

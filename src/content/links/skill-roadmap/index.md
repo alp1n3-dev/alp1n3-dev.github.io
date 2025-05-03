@@ -26,6 +26,8 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 
    - Go - 🔄
    - C# - 🔄
+   - GitHub Actions - 🛑
+   - Python - 🛑
 
 5. HackTheBox Certified Web Exploitation Expert (HTB CWEE) - 🛑
 6. OffSec OSWE - 🛑
@@ -59,8 +61,8 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 
 #### golang repos to study, to see how things are handled (actions, releases, etc.)
 
-- usememos/memo
--
+- usememos/memo: [devon wiki](https://deepwiki.com/usememos/memos) & github
+- 
 
 ### python
 
@@ -73,7 +75,7 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 
 ### ai agents & MCP
 
-### n8n
+### n8n / windmill
 
 ### orbstack & docker
 
@@ -101,6 +103,18 @@ Need help or running into a problem? Use the GitHub Security Lab's [Discussions]
 ### Semgrep
 
 1. [Semgrep 101](https://academy.semgrep.dev/courses/semgrep-101) via Semgrep Academy, then the other relevant courses - 🛑
+	- Semgrep Custom Rules Level 1 - 🔄
 2. Use Semgrep in a repo of your own - ✅
 
 ## unnecessary, but still completed
+
+### other certs
+
+- CompTIA CySA+ - ✅
+
+### policy
+
+- PCI - 🛑
+- HIPAA - 🛑
+- ISO 27001 - 🛑
+- SOC 1 & SOC 2 - 🛑
