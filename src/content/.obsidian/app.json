@@ -4,5 +4,6 @@
   "newFileLocation": "root",
   "attachmentFolderPath": "./images",
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }

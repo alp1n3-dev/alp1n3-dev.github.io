@@ -26,6 +26,6 @@ This may be something like `/Users/< user >/Documents/GitHub/< user >.github.io/
 	- IDE Extension
 	- Etc.
 
-**Tip:** Obsidian uses wiki-links by default. This doesn't work (at least for me) out-of-the-box with my Astro site. Turn off the usage of wiki-links and it will default to using the standard markdown image insertion. 
+**Tip:** Obsidian uses wiki-links by default. This doesn't work (at least for me) out-of-the-box with my Astro site. Turn off the usage of wiki-links and it will default to using the standard markdown image insertion. *I've highlighted some other changes that I use for to make everything a little easier.*
 
-![](wikilinks-1.png)
+![](images/wikilinks.png)
