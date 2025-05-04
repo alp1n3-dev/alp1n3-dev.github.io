@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 426.5
   },
   "right": {
     "id": "0fb2d2f45ccb08dd",
@@ -168,16 +168,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd459e7caa6dde17",
+  "active": "ecb8a5dbfccc5367",
   "lastOpenFiles": [
+    "blog/write-your-github-pages-content-with-obsidian/images/CleanShot 2025-05-04 at 09.59.54@2x.png",
+    "blog/punk-security-devsecops-ctf/index.md",
+    "blog/punk-security-devsecops-ctf/images/html-comments-1.png",
+    "blog/punk-security-devsecops-ctf/images/just-ask-hard-1.png",
+    "blog/punk-security-devsecops-ctf/images",
+    "blog/setting-up-tailscale/index.md",
+    "blog/punk-security-devsecops-ctf",
+    "blog/setting-up-tailscale/images/cursor-ssh.png",
+    "images/CleanShot.md",
+    "images",
+    "().md",
+    "blog/setting-up-tailscale/images/cyberduck.png",
+    "blog/setting-up-tailscale/images",
+    "blog/write-your-github-pages-content-with-obsidian/index.md",
     "blog/write-your-github-pages-content-with-obsidian/images/obsidian-menu.png",
     "blog/postgres-with-orbstack/index.md",
     "blog/places-to-publish-your-book/index.md",
     "blog/0026-scr-quick-tips/index.md",
     "blog/0022-cloudflare-with-github-pages/index.md",
     "blog/hunting-for-cves/index.md",
-    "blog/write-your-github-pages-content-with-obsidian/index.md",
-    "blog/setting-up-tailscale/index.md",
     "blog/write-your-github-pages-content-with-obsidian/images/obsidian-menu.png.png",
     "blog/write-your-github-pages-content-with-obsidian/images",
     "blog/write-your-github-pages-content-with-obsidian",

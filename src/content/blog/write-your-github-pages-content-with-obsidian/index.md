@@ -25,3 +25,7 @@ This may be something like `/Users/< user >/Documents/GitHub/< user >.github.io/
 	- Git CLI
 	- IDE Extension
 	- Etc.
+
+**Tip:** Obsidian uses wiki-links by default. This doesn't work (at least for me) out-of-the-box with my Astro site. Turn off the usage of wiki-links and it will default to using the standard markdown image insertion. 
+
+![](CleanShot%202025-05-04%20at%2009.59.54@2x.png)

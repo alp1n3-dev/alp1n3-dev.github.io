@@ -2,5 +2,7 @@
   "strictLineBreaks": false,
   "showLineNumber": false,
   "newFileLocation": "root",
-  "attachmentFolderPath": "./images"
+  "attachmentFolderPath": "./images",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
 }
