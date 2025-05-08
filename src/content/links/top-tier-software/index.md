@@ -32,3 +32,17 @@ In some cases there might be more than two listed, just because the alternative 
 	- Plane
 
 ## no-code or low-code automation
+
+## outreach / finding contact info / leads / company info
+
+- [UseDouble](https://www.usedouble.com)
+- Apollo
+- Huntr
+- Crunchbase
+- Intelx
+
+## writing / grammar
+
+- LanguageTool
+- Hemmingway
+- ProWritingAid

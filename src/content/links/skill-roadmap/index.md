@@ -48,6 +48,8 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 10. Ultimate Go Notebook
 11. How I Write HTTP Services in [Go](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/) After 13 Years
 12. Go Secure Coding [Practices](https://github.com/OWASP/Go-SCP)
+13. Go with the Domain ([Book](https://threedots.tech/go-with-the-domain/))
+14. Building Event-Driven Applications in [Go](https://watermill.io/docs/getting-started/)
 
 #### golang packages / tools to get familiar with
 
