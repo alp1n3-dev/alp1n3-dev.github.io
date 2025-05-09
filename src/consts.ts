@@ -93,7 +93,7 @@ export const CONTACT: ContactSite = [
   },
   {
     type: "GitHub",
-    href: "https://github.com/alp1n3-eth",
+    href: "https://github.com/alp1n3-dev",
   },
   //{ // Leaving out LinkedIn for now.
   //type: "LinkedIn",

@@ -99,6 +99,8 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 - [CNCF: Security as Code - A DevSecOps Approach](https://www.youtube.com/watch?v=aKv08sAUNUs)
 - [CodeQL CTFs to Practice With](https://securitylab.github.com/ctf/)
 - Use CodeQL in a repo of your own - ✅
+- [How to secure your GitHub Actions workflows with CodeQL](https://github.blog/security/application-security/how-to-secure-your-github-actions-workflows-with-codeql/)
+- [How GitHub uses CodeQL to secure GitHub](https://github.blog/engineering/how-github-uses-codeql-to-secure-github/)
 
 Need help or running into a problem? Use the GitHub Security Lab's [Discussions](https://github.com/github/securitylab/discussions). Sometimes updates to CodeQL contain breaking changes (like to the dataflow API) and the relevant documentation for specific languages isn't updated, so don't be afraid to ask.
 

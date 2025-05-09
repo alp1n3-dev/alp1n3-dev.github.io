@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/adding-certs-macos-keychain/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/adding-certs-macos-keychain/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/adding-certs-macos-keychain/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/adding-certs-macos-keychain/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,11 +170,12 @@
   },
   "active": "ecb8a5dbfccc5367",
   "lastOpenFiles": [
+    "links/recommended-reading/index.md",
+    "blog/adding-certs-macos-keychain/index.md",
     "blog/0026-scr-quick-tips/index.md",
     "blog/0022-cloudflare-with-github-pages/index.md",
     "blog/mac-mini-cursor-tunnel/index.md",
     "blog/nushell-in-macos/index.md",
-    "blog/adding-certs-macos-keychain/index.md",
     "blog/adding-certs-macos-keychain",
     "blog/postgres-with-orbstack/index.md",
     "blog/mac-mini-cursor-tunnel",
@@ -207,7 +208,6 @@
     "blog/setting-up-tailscale",
     "links/top-tier-software",
     "links/cool-companies/index.md",
-    "links/recommended-reading/index.md",
     "blog/detecting-headless-browsers/index.md"
   ]
 }
