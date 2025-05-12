@@ -1,5 +1,5 @@
 ---
-title: setting up nushell in macOS
+title: mac mini cursor tunnel
 date: 2025-05-05
 tags:
   - cursor
