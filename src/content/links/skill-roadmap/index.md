@@ -77,7 +77,20 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 
 ### ai agents & MCP
 
-### n8n / windmill
+### n8n / windmill / temporal
+
+#### temporal (with Go)
+
+1. Read the [Zine](https://learn.temporal.io/assets/files/zines-6425991d04e05e05031aa2b4a2ccddf4.pdf) on Durable Execution
+2. Temporal 101: Introducing the Temporal Platform
+3. Temporal 102: Exploring Durable Execution
+4. Crafting an Error Handling Strategy
+5. Versioning Workflows
+6. Build an eCommerce App with Temporal
+7. Build an Email Drip Campaign
+8. Create Audiobooks from Text
+9. Build a Background Check Application
+10. Give a Presentation - [Build Invincible Apps with Durable Execution](https://learn.temporal.io/meetup_in_a_box/invincible_apps/go/) - Go
 
 ### orbstack & docker
 

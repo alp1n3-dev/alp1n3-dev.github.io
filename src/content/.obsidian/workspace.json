@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/n8n-no-external-secrets/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/n8n-no-external-secrets/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/n8n-no-external-secrets/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/n8n-no-external-secrets/index.md",
+                "file": "links/skill-roadmap/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,6 +170,12 @@
   },
   "active": "ecb8a5dbfccc5367",
   "lastOpenFiles": [
+    "blog/setting-up-tailscale/index.md",
+    "blog/hunting-for-cves/index.md",
+    "blog/mac-mini-cursor-tunnel/index.md",
+    "blog/n8n-no-external-secrets/index.md",
+    "blog/places-to-publish-your-book/index.md",
+    "blog/postgres-with-orbstack/index.md",
     "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 14.17.54@2x.png",
     "blog/n8n-no-external-secrets/images/Pasted image 20250512141744.png",
     "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 10.37.26@2x.png",
@@ -177,8 +183,6 @@
     "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 10.29.08@2x.png",
     "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 10.27.46@2x.png",
     "blog/n8n-no-external-secrets/images",
-    "blog/mac-mini-cursor-tunnel/index.md",
-    "blog/n8n-no-external-secrets/index.md",
     "blog/n8n-no-external-secrets",
     "links/skill-roadmap/index.md",
     "links/recommended-reading/index.md",
@@ -187,26 +191,21 @@
     "blog/0022-cloudflare-with-github-pages/index.md",
     "blog/nushell-in-macos/index.md",
     "blog/adding-certs-macos-keychain",
-    "blog/postgres-with-orbstack/index.md",
     "blog/mac-mini-cursor-tunnel",
     "links/top-tier-software/index.md",
     "links/library-of-payloads-wordlists/index.md",
-    "blog/setting-up-tailscale/index.md",
     "blog/punk-security-devsecops-ctf/index.md",
     "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 15.04.08@2x.png",
     "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 13.06.55@2x.png",
     "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 13.06.12@2x.png",
     "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 12.54.44@2x.png",
     "blog/write-your-github-pages-content-with-obsidian/index.md",
-    "blog/write-your-github-pages-content-with-obsidian/images/wikilinks.png",
     "blog/punk-security-devsecops-ctf/images",
     "blog/punk-security-devsecops-ctf",
     "images/CleanShot.md",
     "images",
     "().md",
     "blog/setting-up-tailscale/images",
-    "blog/places-to-publish-your-book/index.md",
-    "blog/hunting-for-cves/index.md",
     "blog/write-your-github-pages-content-with-obsidian/images",
     "blog/write-your-github-pages-content-with-obsidian",
     "links/cool-companies/index.md",
