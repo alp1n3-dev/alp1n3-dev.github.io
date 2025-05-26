@@ -13,7 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "links/skill-roadmap/index.md",
+                "file": "blog/2025-05-20-nahamcon-ctf-getting-ready-for-the-web/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "2fd8abb9cf0b55bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/2025-05-25-nahamcon-post-ctf-review/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -21,7 +35,8 @@
               "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "links/skill-roadmap/index.md",
+                "file": "blog/2025-05-20-nahamcon-ctf-getting-ready-for-the-web/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "links/skill-roadmap/index.md",
+                "file": "blog/2025-05-20-nahamcon-ctf-getting-ready-for-the-web/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "links/skill-roadmap/index.md",
+                "file": "blog/2025-05-20-nahamcon-ctf-getting-ready-for-the-web/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,8 +183,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ecb8a5dbfccc5367",
+  "active": "2fd8abb9cf0b55bf",
   "lastOpenFiles": [
+    "blog/2025-05-25-nahamcon-post-ctf-review/images/CleanShot 2025-05-26 at 10.47.52@2x.png",
+    "blog/2025-05-25-nahamcon-post-ctf-review/images/CleanShot 2025-05-26 at 10.41.45@2x.png",
+    "blog/2025-05-25-nahamcon-post-ctf-review/images/CleanShot 2025-05-26 at 10.39.06@2x.png",
+    "blog/2025-05-25-nahamcon-post-ctf-review/images",
+    "blog/2025-05-20-nahamcon-ctf-getting-ready-for-the-web/index.md",
+    "blog/2025-05-25-nahamcon-post-ctf-review/index.md",
+    "blog/2025-05-25-nahamcon-post-ctf-review",
+    "blog/2025-05-22-ai-ctf/index.md",
+    "blog/2025-05-22-ai-ctf/images/CleanShot 2025-05-23 at 10.09.47@2x.png",
+    "blog/2025-05-22-ai-ctf/images/CleanShot 2025-05-23 at 10.07.54@2x.png",
+    "blog/2025-05-22-ai-ctf/images/CleanShot 2025-05-23 at 08.59.18@2x.png",
+    "blog/2025-05-22-ai-ctf/images/CleanShot 2025-05-23 at 08.31.45@2x.png",
+    "blog/2025-05-22-ai-ctf/images/CleanShot 2025-05-22 at 15.21.45@2x.png",
+    "blog/2025-05-22-ai-ctf/images",
+    "blog/xsshunter-install-in-2025/index.md",
+    "blog/2025-05-22-ai-ctf",
+    "blog/2025-05-20-living-asp-study-plan/index.md",
+    "blog/2025-05-20-nahamcon-ctf-getting-ready-for-the-web",
+    "blog/2025-05-20-living-asp-study-plan",
+    "links/recommended-reading/index.md",
+    "links/skill-roadmap/index.md",
+    "links/old-blogs-and-socials/index.md",
+    "blog/2025-05-18-hashicorp-vault-bypass-cve/index.md",
+    "blog/newsletter-rss-bsky-rate-limit-caido-docker/index.md",
+    "blog/2025-05-18-hashicorp-vault-bypass-cve/images/Building a Temporal Workflow in Go for RSS Feed Pr.pdf",
+    "blog/2025-05-18-hashicorp-vault-bypass-cve/images",
+    "blog/2025-05-18-hashicorp-vault-bypass-cve",
+    "blog/newsletter-rss-bsky-rate-limit-caido-docker/images/Building a Temporal Workflow in Go for RSS Feed Pr.pdf",
+    "blog/idor-reveals-patient-details/index.md",
+    "blog/xsshunter-install-in-2025/images/cyberduck.png",
+    "blog/xsshunter-install-in-2025/images/cursor-ssh.png",
     "blog/setting-up-tailscale/index.md",
     "blog/hunting-for-cves/index.md",
     "blog/mac-mini-cursor-tunnel/index.md",
@@ -177,38 +223,13 @@
     "blog/places-to-publish-your-book/index.md",
     "blog/postgres-with-orbstack/index.md",
     "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 14.17.54@2x.png",
-    "blog/n8n-no-external-secrets/images/Pasted image 20250512141744.png",
-    "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 10.37.26@2x.png",
-    "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 10.29.48@2x.png",
-    "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 10.29.08@2x.png",
-    "blog/n8n-no-external-secrets/images/CleanShot 2025-05-12 at 10.27.46@2x.png",
-    "blog/n8n-no-external-secrets/images",
-    "blog/n8n-no-external-secrets",
-    "links/skill-roadmap/index.md",
-    "links/recommended-reading/index.md",
     "blog/adding-certs-macos-keychain/index.md",
     "blog/0026-scr-quick-tips/index.md",
     "blog/0022-cloudflare-with-github-pages/index.md",
     "blog/nushell-in-macos/index.md",
-    "blog/adding-certs-macos-keychain",
-    "blog/mac-mini-cursor-tunnel",
     "links/top-tier-software/index.md",
     "links/library-of-payloads-wordlists/index.md",
     "blog/punk-security-devsecops-ctf/index.md",
-    "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 15.04.08@2x.png",
-    "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 13.06.55@2x.png",
-    "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 13.06.12@2x.png",
-    "blog/punk-security-devsecops-ctf/images/CleanShot 2025-05-04 at 12.54.44@2x.png",
-    "blog/write-your-github-pages-content-with-obsidian/index.md",
-    "blog/punk-security-devsecops-ctf/images",
-    "blog/punk-security-devsecops-ctf",
-    "images/CleanShot.md",
-    "images",
-    "().md",
-    "blog/setting-up-tailscale/images",
-    "blog/write-your-github-pages-content-with-obsidian/images",
-    "blog/write-your-github-pages-content-with-obsidian",
-    "links/cool-companies/index.md",
-    "blog/detecting-headless-browsers/index.md"
+    "blog/write-your-github-pages-content-with-obsidian/index.md"
   ]
 }

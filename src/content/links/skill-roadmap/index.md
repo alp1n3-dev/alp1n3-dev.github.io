@@ -27,10 +27,10 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
    - Go - 🔄
    - C# - 🔄
    - GitHub Actions - 🛑
-   - Python - 🛑
 
 5. HackTheBox Certified Web Exploitation Expert (HTB CWEE) - 🛑
 6. OffSec OSWE - 🛑
+7. Certified Secure Software Lifecycle Professional ([CSSLP](https://www.isc2.org/certifications/csslp)) - 🛑
 
 ## programming
 
@@ -39,17 +39,18 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 1. A Tour of [Go](https://go.dev/tour/welcome/1) - ✅
 2. Let's Go by Alex Edwards - ✅
 3. Learn Go with Tests by quii - 🔄
-4. Building Microservices in Go (Pluralsight) - 🔄
-5. [Grind 75](https://www.techinterviewhandbook.org/grind75/) - 🛑
-6. Let's Go Further by Alex Edwards - 🛑
-7. Ardan Labs Go Bundle - 🛑
-8. 100 Mistakes in Go
-9. Go By Example (with accompanying github [repo](https://github.com/inancgumus/learngo))
-10. Ultimate Go Notebook
-11. How I Write HTTP Services in [Go](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/) After 13 Years
-12. Go Secure Coding [Practices](https://github.com/OWASP/Go-SCP)
-13. Go with the Domain ([Book](https://threedots.tech/go-with-the-domain/))
-14. Building Event-Driven Applications in [Go](https://watermill.io/docs/getting-started/)
+4. Effective Go Recipes
+5. Building Microservices in Go (Pluralsight) - 🔄
+6. [Grind 75](https://www.techinterviewhandbook.org/grind75/) - 🛑
+7. Let's Go Further by Alex Edwards - 🛑
+8. Ardan Labs Go Bundle - 🛑
+9. 100 Mistakes in Go
+10. Go By Example (with accompanying github [repo](https://github.com/inancgumus/learngo))
+11. Ultimate Go Notebook
+12. How I Write HTTP Services in [Go](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/) After 13 Years
+13. Go Secure Coding [Practices](https://github.com/OWASP/Go-SCP)
+14. Go with the Domain ([Book](https://threedots.tech/go-with-the-domain/))
+15. Building Event-Driven Applications in [Go](https://watermill.io/docs/getting-started/)
 
 #### golang packages / tools to get familiar with
 
@@ -61,36 +62,29 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 6. [validator](https://github.com/go-playground/validator)
 7. [chi](https://github.com/go-chi/chi)
 
-#### golang repos to study, to see how things are handled (actions, releases, etc.)
+#### golang web app repos to study, to see how things are handled (actions, releases, etc.)
 
 - usememos/memo: [devon wiki](https://deepwiki.com/usememos/memos) & github
 - 
-
-### python
-
-- get started with [uv](https://docs.astral.sh/uv/)
-- building ai agents with python
 
 ## systems / devops / ci/cd / scr
 
 - how git internally [works](https://octobot.medium.com/how-git-internally-works-1f0932067bee)
 
-### ai agents & MCP
-
-### n8n / windmill / temporal
+### ai agents, MCP, automation, durable execution
 
 #### temporal (with Go)
 
-1. Read the [Zine](https://learn.temporal.io/assets/files/zines-6425991d04e05e05031aa2b4a2ccddf4.pdf) on Durable Execution
-2. Temporal 101: Introducing the Temporal Platform
-3. Temporal 102: Exploring Durable Execution
-4. Crafting an Error Handling Strategy
-5. Versioning Workflows
-6. Build an eCommerce App with Temporal
-7. Build an Email Drip Campaign
-8. Create Audiobooks from Text
-9. Build a Background Check Application
-10. Give a Presentation - [Build Invincible Apps with Durable Execution](https://learn.temporal.io/meetup_in_a_box/invincible_apps/go/) - Go
+1. Read the [Zine](https://learn.temporal.io/assets/files/zines-6425991d04e05e05031aa2b4a2ccddf4.pdf) on Durable Execution - 🛑
+2. Temporal 101: Introducing the Temporal Platform - 🛑
+3. Temporal 102: Exploring Durable Execution - 🛑
+4. Crafting an Error Handling Strategy - 🛑
+5. Versioning Workflows - 🛑
+6. Build an eCommerce App with Temporal - 🛑
+7. Build an Email Drip Campaign - 🛑
+8. Create Audiobooks from Text - 🛑
+9. Build a Background Check Application - 🛑
+10. Give a Presentation - [Build Invincible Apps with Durable Execution](https://learn.temporal.io/meetup_in_a_box/invincible_apps/go/) - Go - 🛑
 
 ### orbstack & docker
 
@@ -101,7 +95,8 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 3. ISE Engineering Fundamentals [Playbook](https://microsoft.github.io/code-with-engineering-playbook/) - 🛑
 4. OWASP DotNet Cheat [Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html) - 🛑
 
-### CodeQL
+### SAST
+#### CodeQL
 
 - [Trail of Bits - CodeQL Guide](https://appsec.guide/docs/static-analysis/codeql/)
 - [Discover Vulnerabilities with CodeQL](https://www.youtube.com/watch?v=NygVkQKmGwI)
@@ -117,13 +112,13 @@ This isn't all inclusive, but a way for me to keep track of some of the more imp
 
 Need help or running into a problem? Use the GitHub Security Lab's [Discussions](https://github.com/github/securitylab/discussions). Sometimes updates to CodeQL contain breaking changes (like to the dataflow API) and the relevant documentation for specific languages isn't updated, so don't be afraid to ask.
 
-### Semgrep
+#### Semgrep
 
 1. [Semgrep 101](https://academy.semgrep.dev/courses/semgrep-101) via Semgrep Academy, then the other relevant courses - 🛑
 	- Semgrep Custom Rules Level 1 - 🔄
 2. Use Semgrep in a repo of your own - ✅
 
-## unnecessary, but still completed
+## not 100% necessary, but still completed
 
 ### other certs
 

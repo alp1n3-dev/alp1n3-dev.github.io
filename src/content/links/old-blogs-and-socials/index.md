@@ -25,4 +25,4 @@ In terms of social media, I don't have a ton anymore. The international embrace 
 - [GitHub]()
 - [BlueSky]()
 
-If you need to get a hold of me for any reason, any of these works, but you'd have the best luck with Signal or BlueSky. You can also find me lurking in the [OWASP Slack](), [PortSwigger Discord](), and [PentesterLab Discord]().
+If you need to get a hold of me for any reason, any of these works, but you'd have the best luck with Signal or BlueSky. You can also find me lurking in the OWASP Slack, PortSwigger Discord, and PentesterLab Discord.
