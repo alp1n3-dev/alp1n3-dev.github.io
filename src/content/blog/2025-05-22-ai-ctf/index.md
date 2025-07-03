@@ -1,9 +1,15 @@
 ---
-title: ai ctf
+title: ai ctf - live notes
 date: 2025-05-22
-draft: true
-tags: []
+draft: false
+tags:
+  - ctf
+  - ai
+  - llm
+  - ml
 ---
+**TL;DR:** Pretty cool CTF with interesting challenges involving AI/LLM/ML I haven't run into before, especially when tied in with web-related vulns. I'll have to do a post-ctf review on the released write-ups and see what techniques and knowledge I can gleam from them.
+
 ## floor check
 **web, easy**
 
