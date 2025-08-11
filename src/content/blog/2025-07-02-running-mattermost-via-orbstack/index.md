@@ -23,7 +23,7 @@ mkdir -p ./volumes/app/mattermost/{config,data,logs,plugins,client/plugins,bleve
 sudo chown -R 501:501 ./volumes/app/mattermost
 ```
 
-After that, I spun it up and didn't run into any further issues with the container crashing immediately due to permission issues. 
+After that, I spun it up and didn't run into any further issues with the container crashing immediately due to permission issues. If you want to double-check your UID, just use the following command: `id`.
 
 Who knows if there will be further fallout from the changes, but if I run into anything I'll come back here and update the post.
 
