@@ -27,7 +27,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2025-08-02-mac-go-gui-wails-vue/index.md",
+                "file": "blog/2025-08-20-digging-into-mattermost/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "74af650cfc14b585",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/2025-10-03-llms-last/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,53 +198,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd8abb9cf0b55bf",
+  "active": "74af650cfc14b585",
   "lastOpenFiles": [
-    "blog/adding-certs-macos-keychain/index.md",
+    "blog/2025-09-23-campfire-loose-privileges/index.md",
+    "blog/2025-10-03-llms-last/index.md",
+    "blog/2025-10-03-llms-last/images/CleanShot 2025-09-23 at 10.09.26@2x.png",
+    "blog/2025-10-03-llms-last/images/CleanShot 2025-09-23 at 09.52.13@2x.png",
+    "blog/2025-10-03-llms-last/images",
+    "blog/2025-10-03-llms-last",
+    "blog/2025-09-23-campfire-loose-privileges/images/CleanShot 2025-09-23 at 10.09.26@2x.png",
+    "blog/2025-09-23-campfire-loose-privileges/images/CleanShot 2025-09-23 at 09.52.13@2x.png",
+    "blog/2025-09-23-campfire-loose-privileges/images",
+    "blog/2025-09-20-setting-up-campfire/index.md",
+    "blog/2025-09-23-campfire-loose-privileges",
+    "blog/2025-09-13-extreme-competition-in-niche-markets/index.md",
+    "blog/2025-09-20-setting-up-campfire",
+    "blog/2025-09-13-extreme-competition-in-niche-markets/images/CleanShot 2025-09-13 at 08.41.24@2x.png",
+    "blog/2025-09-13-extreme-competition-in-niche-markets/images",
+    "blog/2025-08-26-offensive-appsec-revolves-around-context/index.md",
+    "blog/2025-09-13-extreme-competition-in-niche-markets",
+    "blog/2025-08-24-where-to-look-for-cybersec-jobs/index.md",
+    "blog/2025-08-20-digging-into-mattermost/index.md",
+    "blog/2025-08-24-adding-semgrep-and-codeql-to-a-repo/index.md",
+    "blog/2025-08-24-detecting-jwt-tampering-via-firewall/index.md",
+    "blog/2025-08-26-offensive-appsec-revolves-around-context",
+    "blog/2025-08-24-where-to-look-for-cybersec-jobs",
+    "blog/2025-08-24-detecting-jwt-tampering-via-firewall",
+    "blog/2025-08-20-digging-into-mattermost/mattermost-recon-files/renniepak-results.md",
+    "blog/2025-08-18-modal-rayon-is-the-secret-to-softness/index.md",
+    "blog/2025-07-02-running-mattermost-via-orbstack/index.md",
+    "blog/2025-07-15-literal-vulnerability-disclosure/index.md",
+    "blog/2025-07-14-pagebound-vulnerability-disclosure/index.md",
+    "blog/2025-07-29-xss-isnt-that-hard/index.md",
     "blog/2025-08-02-mac-go-gui-wails-vue/index.md",
+    "blog/2025-08-12-posting-to-bsky-w-windmill/index.md",
+    "blog/2025-08-13-safely-coding-with-llms/index.md",
+    "blog/2025-08-17-the-ultimate-llm-blocker-negation/index.md",
+    "blog/adding-certs-macos-keychain/index.md",
     "blog/2025-05-30-d3-ctf/index.md",
     "blog/2025-06-27-googlectf-live-notes/index.md",
-    "blog/2025-07-02-running-mattermost-via-orbstack/index.md",
-    "blog/2025-07-14-pagebound-vulnerability-disclosure/index.md",
-    "blog/2025-07-15-literal-vulnerability-disclosure/index.md",
-    "blog/2025-07-29-xss-isnt-that-hard/index.md",
-    "blog/2025-08-02-mac-go-gui-wails-vue",
-    "blog/2025-07-29-xss-isnt-that-hard",
-    "blog/2025-07-15-literal-vulnerability-disclosure/Untitled",
     "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-15 at 20.28.22@2x.png",
     "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-15 at 20.28.08@2x.png",
     "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-15 at 20.20.44@2x.png",
     "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-15 at 20.19.33@2x.png",
-    "blog/2025-07-15-literal-vulnerability-disclosure/images",
     "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-14 at 20.39.33@2x.png",
-    "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-14 at 20.35.43@2x.png",
-    "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-14 at 20.33.01@2x.png",
-    "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-14 at 20.27.54@2x.png",
-    "blog/2025-07-15-literal-vulnerability-disclosure/images/CleanShot 2025-07-14 at 20.26.14@2x.png",
-    "blog/2025-07-15-literal-vulnerability-disclosure",
-    "blog/2025-07-14-pagebound-vulnerability-disclosure/images/CleanShot 2025-07-14 at 20.39.33@2x.png",
-    "blog/2025-07-14-pagebound-vulnerability-disclosure/images",
-    "blog/2025-07-14-pagebound-vulnerability-disclosure",
-    "blog/2025-07-02-running-mattermost-via-orbstack",
-    "blog/2025-06-27-googlectf-live-notes/untitled folder",
-    "blog/2025-06-27-googlectf-live-notes",
     "blog/2025-05-25-nahamcon-post-ctf-review/index.md",
     "blog/punk-security-devsecops-ctf/index.md",
-    "blog/2025-05-20-living-asp-study-plan/index.md",
-    "blog/2025-05-18-hashicorp-vault-bypass-cve/index.md",
-    "blog/2025-05-20-nahamcon-ctf-getting-ready-for-the-web/index.md",
-    "blog/2025-05-22-ai-ctf/index.md",
-    "blog/xsshunter-install-in-2025/index.md",
-    "links/recommended-reading/index.md",
-    "links/skill-roadmap/index.md",
-    "links/old-blogs-and-socials/index.md",
-    "blog/newsletter-rss-bsky-rate-limit-caido-docker/index.md",
-    "blog/idor-reveals-patient-details/index.md",
-    "blog/setting-up-tailscale/index.md",
-    "blog/hunting-for-cves/index.md",
-    "blog/mac-mini-cursor-tunnel/index.md",
-    "blog/n8n-no-external-secrets/index.md",
-    "blog/places-to-publish-your-book/index.md",
-    "blog/postgres-with-orbstack/index.md"
+    "blog/2025-05-20-living-asp-study-plan/index.md"
   ]
 }

@@ -7,7 +7,7 @@ tags:
   - wails
   - vue
   - shadcn
-draft: false
+draft: true
 ---
 For a while I've wanted to make a local-first app, but the main thing standing in my way was the lack of knowing a language productive for it. I love Go, and working with it and its dependencies is easy peasy for me, so I didn't want to re-learn the wheel and have to go with something like Swift. That's when I stumbled upon a post referencing Wails as the solution to my problem.
 
@@ -48,7 +48,8 @@ Then it should at least have two core portions:
 Everything was outdated and didn't want to really *work* out-of-the-box with Wails and its Vue template, so some changes may need to be made in the environment, especially if you're using Tailwind.
 
 1. Use `npm` / `npx` to install/update any necessary packages.
-2. The Vite config may end up looking something like this: 
+2. Install Tailwind using the [official docs](https://tailwindcss.com/docs/installation/using-vite), specifically for Vite if it's being used. (I accidentally was using outdated steps, which caused some initial problems.)
+3. The Vite config may end up looking something like this: 
 ```js
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
@@ -118,4 +119,36 @@ And `jsconfig.json`:
 
 Which will all be located inside the `/frontend/*` portion of the project's directory.
 
+## knowledge requirements
+Just take my advice and deeply know the frontend framework you'll be using **before** starting. Generally that's good advice for anything, but I can normally learn on the fly pretty well. When it comes to mixing about the stack for an application when I haven't done frontend ANYTHING in a long time... it's not worth it to spin your wheels with a brand new framework 😂.
+
+I took a break and read through the Vue.js beginner documentation to get more familiar with what I needed it to do.
+
 ## setting up dark mode
+
+In `style.css` make sure no other styles will affect certain aspects, and ensure the below items are present (mostly needed for tailwind anyways):
+
+```css
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+```
+## one big form
+
+Wrapping `naabu` is just creating one single-page form with multiple options that can appear/disappear as needed.
+
+## the go portion
+Throw together a struct:
+```go
+type ScanOptions struct {
+	ProjectID       string `json:"projectID"`
+	ProxyOn         bool   `json:"proxyOn"`
+	ProxyAddress    string `json:"proxyAddress"`
+	TargetList      string `json:"targetList"`
+	TargetPortRange string `json:"targetPortRange"`
+	PassiveScan     bool   `json:"passiveScan"`
+}
+```
+
+Pass the value to the struct:
