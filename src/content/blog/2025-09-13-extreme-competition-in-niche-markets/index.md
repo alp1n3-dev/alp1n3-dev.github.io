@@ -2,6 +2,7 @@
 title: extreme competition in niche markets
 date: 2025-09-13
 tags:
+  - personal
 draft: true
 ---
 A user posted about seeing a local coffee shop operating their own "bot farm" in order to "amplify their message" and boost engagement via Instagram:
